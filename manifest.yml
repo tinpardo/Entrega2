@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Entrega2
+  host: Entrega2
+  disk_quota: 1024M
+  services:
+  - Entrega2-cloudantNoSQLDB
